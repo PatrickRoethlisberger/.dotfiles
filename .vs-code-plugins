@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+###############################################################################
+# Install VS-Code Plugins                                                     #
+###############################################################################
+
+code --install-extension Dart-Code.dart-code
+code --install-extension Dart-Code.flutter
+code --install-extension dcortes92.FreeMarker
+code --install-extension fabiospampinato.vscode-monokai-night
+code --install-extension fabiospampinato.vscode-todo-plus
+code --install-extension HookyQR.beautify
+code --install-extension Ikuyadeu.r
+code --install-extension mechatroner.rainbow-csv
+code --install-extension ms-azuretools.vscode-azurefunctions
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension platformio.platformio-ide
+code --install-extension redhat.vscode-yaml
+code --install-extension ritwickdey.live-sass
+code --install-extension ritwickdey.LiveServer
+code --install-extension shardulm94.trailing-spaces
+code --install-extension shyykoserhiy.vscode-spotify
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension waderyan.gitblame
