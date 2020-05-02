@@ -40,12 +40,6 @@ brew install fish
 # Install yarn
 brew install asdf
 
-# Install golang
-brew install go
-
-# Install R lang
-brew install r
-
 # Install the github util
 brew install gh
 
