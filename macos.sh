@@ -22,6 +22,12 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Set accent color to gray
+defaults write NSGlobalDomain AppleAccentColor -int -1
+
+# Set highlight color to gray
+defaults write NSGlobalDomain AppleHighlightColor -string "0.259343 0.263173 0.275104"
+
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
