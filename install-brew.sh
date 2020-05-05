@@ -46,6 +46,9 @@ brew install gh
 # Install the thefuck
 brew install thefuck
 
+# Install neovim
+brew install neovim
+
 # Install the htop
 brew install htop
 
