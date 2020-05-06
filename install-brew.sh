@@ -23,14 +23,14 @@ brew install moreutils
 brew install findutils
 
 # Install wget with IRI support
-brew install wget --with-iri
+brew install wget
 
 # Install more recent versions of some OS X tools
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/nano
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install vim
+brew install nano
+brew install grep
+brew install openssh
+brew install screen
 
 brew install git
 
@@ -56,13 +56,7 @@ brew install htop
 brew install geckodriver
 
 # Install the gekodriver
-brew install imagemagick --with-webp
-
-# Install ssh-copy-id
-brew install ssh-copy-id
-
-# Install the sshfs
-brew install sshfs
+brew install imagemagick
 
 # Install the  Mac App Store cli
 brew install mas
