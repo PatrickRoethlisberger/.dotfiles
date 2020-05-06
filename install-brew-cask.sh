@@ -4,8 +4,7 @@
 # Install Homebrew Casks                                                      #
 ###############################################################################
 
-brew install caskroom/cask/brew-cask
-
+brew cask install 1password
 brew cask install alfred
 brew cask install azure-data-studio
 brew cask install chromedriver
@@ -23,18 +22,26 @@ brew cask install krisp
 brew cask install maccy
 brew cask install microsoft-office
 brew cask install mysqlworkbench
+brew cask install osxfuse
 brew cask install pixelstick
 brew cask install signal
 brew cask install slack
-brew cask install synology-drive
-brew cask install telegram
+brew cask install spotify
+brew cask install telegram-desktop
 brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install Vivaldi
 brew cask install whatsapp
 
+# Synology Drive
+brew tap homebrew/cask-drivers
+brew cask install synology-drive
+
 # Fonts
-brew tap caskroom/fonts
+brew tap homebrew/fonts
 
 brew cask install font-hack-nerd-font
 brew cask install font-jetbrainsmono-nerd-font
+
+# Install the sshfs utility depending on osxfuse
+brew install sshfs
