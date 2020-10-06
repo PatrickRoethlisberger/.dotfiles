@@ -31,38 +31,37 @@ brew install nano
 brew install grep
 brew install openssh
 brew install screen
-
 brew install git
 
-# Install fish shell
+# fish - User-friendly command-line shell for UNIX-like operating systems
 brew install fish
 
-# Install yarn
+# asdf - Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew install asdf
 
-# Install the github util
+# gh - GitHub command-line tool
 brew install gh
 
-# Install the thefuck
+# thefuck - Programatically correct mistyped console commands
 brew install thefuck
 
-# Install neovim
+# neovim - Ambitious Vim-fork focused on extensibility and agility
 brew install neovim
 
-# Install the htop
+# htop - Improved top (interactive process viewer)
 brew install htop
 
-# Install the gekodriver
+# gekodriver - WebDriver <-> Marionette proxy
 brew install geckodriver
 
-# Install the gekodriver
+# imagemagick - Tools and libraries to manipulate images in many formats
 brew install imagemagick
 
-# Install the  Mac App Store cli
-brew install mas
+# zoxide - A faster way to navigate your filesystem
+brew install zoxide
 
-# Install Terminal Notifier
-brew install terminal-notifier
+# mac - Mac App Store command-line interface
+brew install mas
 
 # Remove outdated versions from the cellar
 brew cleanup
